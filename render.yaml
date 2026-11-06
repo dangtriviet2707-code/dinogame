@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: dino-game
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: BASE_URL
+        sync: false
+      # Render sẽ yêu cầu nhập các secret này khi deploy Blueprint.
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      # PHẢI trỏ tới bảng người chơi CŨ; không tự tạo bảng mới.
+      - key: SUPABASE_TABLE
+        sync: false
+      - key: SUPABASE_ID_COLUMN
+        value: id
+      - key: SUPABASE_DATA_COLUMN
+        value: data
+      - key: STORAGE_MODE
+        value: supabase
+      - key: DINO_EXCLUSIVE_CODES
+        sync: false
