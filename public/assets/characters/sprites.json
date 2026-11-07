@@ -1,0 +1,184 @@
+{
+ "cell": 192,
+ "frames": 6,
+ "anims": {
+  "idle": {
+   "row": 0,
+   "frames": 6,
+   "fps": 6,
+   "loop": true
+  },
+  "walk": {
+   "row": 1,
+   "frames": 6,
+   "fps": 10,
+   "loop": true
+  },
+  "attack": {
+   "row": 2,
+   "frames": 6,
+   "fps": 14,
+   "loop": false
+  },
+  "skill": {
+   "row": 3,
+   "frames": 6,
+   "fps": 10,
+   "loop": false
+  },
+  "hurt": {
+   "row": 4,
+   "frames": 6,
+   "fps": 12,
+   "loop": false
+  },
+  "die": {
+   "row": 5,
+   "frames": 6,
+   "fps": 8,
+   "loop": false
+  }
+ },
+ "characters": {
+  "player": {
+   "name": "Người Chơi",
+   "sheet": "/assets/characters/player_sheet.png",
+   "portrait": "/assets/characters/player.png",
+   "fwd": 1,
+   "color": "#ff8c28",
+   "bbox": [
+    68,
+    38,
+    124,
+    184
+   ],
+   "foot": 184
+  },
+  "boss_d": {
+   "name": "Boss D",
+   "sheet": "/assets/characters/boss_d_sheet.png",
+   "portrait": "/assets/characters/boss_d.png",
+   "fwd": -1,
+   "color": "#be5aff",
+   "bbox": [
+    24,
+    48,
+    169,
+    182
+   ],
+   "foot": 184
+  },
+  "boss_c": {
+   "name": "Boss C",
+   "sheet": "/assets/characters/boss_c_sheet.png",
+   "portrait": "/assets/characters/boss_c.png",
+   "fwd": -1,
+   "color": "#50beff",
+   "bbox": [
+    23,
+    55,
+    168,
+    184
+   ],
+   "foot": 184
+  },
+  "boss_b": {
+   "name": "Boss B",
+   "sheet": "/assets/characters/boss_b_sheet.png",
+   "portrait": "/assets/characters/boss_b.png",
+   "fwd": -1,
+   "color": "#ff5a28",
+   "bbox": [
+    23,
+    77,
+    169,
+    184
+   ],
+   "foot": 184
+  },
+  "boss_a": {
+   "name": "Boss A",
+   "sheet": "/assets/characters/boss_a_sheet.png",
+   "portrait": "/assets/characters/boss_a.png",
+   "fwd": -1,
+   "color": "#ffc83c",
+   "bbox": [
+    23,
+    81,
+    169,
+    184
+   ],
+   "foot": 184
+  },
+  "boss_s": {
+   "name": "Boss S",
+   "sheet": "/assets/characters/boss_s_sheet.png",
+   "portrait": "/assets/characters/boss_s.png",
+   "fwd": -1,
+   "color": "#aa46ff",
+   "bbox": [
+    23,
+    71,
+    169,
+    184
+   ],
+   "foot": 184
+  },
+  "linh_khuyen": {
+   "name": "Linh Khuyển",
+   "sheet": "/assets/characters/linh_khuyen_sheet.png",
+   "portrait": "/assets/characters/linh_khuyen.png",
+   "fwd": -1,
+   "color": "#5adcff",
+   "bbox": [
+    23,
+    60,
+    168,
+    184
+   ],
+   "foot": 184
+  },
+  "ma_nu": {
+   "name": "Ma Nữ",
+   "sheet": "/assets/characters/ma_nu_sheet.png",
+   "portrait": "/assets/characters/ma_nu.png",
+   "fwd": -1,
+   "color": "#c85aff",
+   "bbox": [
+    23,
+    61,
+    169,
+    183
+   ],
+   "foot": 184
+  },
+  "ma_than": {
+   "name": "Ma Thần",
+   "sheet": "/assets/characters/ma_than_sheet.png",
+   "portrait": "/assets/characters/ma_than.png",
+   "fwd": -1,
+   "color": "#ffbe32",
+   "bbox": [
+    26,
+    38,
+    165,
+    184
+   ],
+   "foot": 184
+  },
+  "player_vip": {
+   "name": "Người Chơi Độc Tôn",
+   "sheet": "/assets/characters/player_vip_sheet.png",
+   "portrait": "/assets/characters/player_vip.png",
+   "fwd": 1,
+   "color": "#ffc83c",
+   "bbox": [
+    23,
+    54,
+    169,
+    184
+   ],
+   "foot": 184
+  }
+ }
+}
