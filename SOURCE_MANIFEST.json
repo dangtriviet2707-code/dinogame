@@ -1,0 +1,669 @@
+{
+  "package": "Viet Legends MMORPG – Long Vương",
+  "version": "v1.7.3",
+  "base": "User-supplied Viet Legends v1.7.2 Long Vương package",
+  "audit_date": "2026-11-10",
+  "source_modified": true,
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 534,
+      "sha256": "75753dfd19bfa4c62d910605f840da987b8ce695d2baaca257f9db6a5c3d6c31"
+    },
+    {
+      "path": ".gitignore",
+      "size": 84,
+      "sha256": "8f359a1cd6a5f4b170cc6386d53053c8f3fe827826d931ce8c0825c51c8eb3a1"
+    },
+    {
+      "path": "OCEAN_EVENT_STATUS.md",
+      "size": 8164,
+      "sha256": "c5c6f483729f08861e6394a63a703af35bb728bfb68ca278466c3093d2cd15ed"
+    },
+    {
+      "path": "PHASE1_PROGRESS.md",
+      "size": 4214,
+      "sha256": "7a877fe0f2ad8286666ac9b29adf54a1e68a44d5b151c128b369b9056c05c2c3"
+    },
+    {
+      "path": "PHASE2_TO_PHASE8_STATUS.md",
+      "size": 1249,
+      "sha256": "ae3ec70b89152368fe4f6a3b4a74d4e654052fc7759fd67af43092423f911347"
+    },
+    {
+      "path": "PROJECT_AUDIT_AND_NEXT_STEPS.md",
+      "size": 6716,
+      "sha256": "5e51aa3ae24eb30c494ca858b41b79b0007b3679e33020a05051adad451f4a3e"
+    },
+    {
+      "path": "Procfile",
+      "size": 81,
+      "sha256": "75b38742ac27d58c0709a5bbc7466c2a139325055bbd2ab337c771f782c54fd9"
+    },
+    {
+      "path": "README.md",
+      "size": 8426,
+      "sha256": "b5acd8cc2ad8acc929b17f443835e9ce7fdce5c8c9443c4c41c0a69e97732fde"
+    },
+    {
+      "path": "RELEASE_v1.6_LONG_VUONG_COMPLETE.md",
+      "size": 4947,
+      "sha256": "0ae31b1efca33d7b139a6ad4b13f469f86614f919893cd8a005325f532cf3a9b"
+    },
+    {
+      "path": "RELEASE_v1.7.1_MAPS_GEAR.md",
+      "size": 1119,
+      "sha256": "631d551800be107d7a6a3b682b243450447eeffe7d6f99f080f38517cac6734f"
+    },
+    {
+      "path": "RELEASE_v1.7.2_LONG_VUONG_ASSETS.md",
+      "size": 1692,
+      "sha256": "b85bd1981ad3cc0bf3a3b9607e31d8dfbf5cef3938cdf864af62c6e6f61d65f2"
+    },
+    {
+      "path": "RELEASE_v1.7.3_LONG_VUONG_PRESENTATION.md",
+      "size": 1262,
+      "sha256": "dfc8f9da9fb329556394de86cefe91fb4be908d465e76e8b186c4ba22e46d203"
+    },
+    {
+      "path": "RELEASE_v1.7_LONG_VUONG.md",
+      "size": 2686,
+      "sha256": "4af21a750a2dab42a5e6d532b521d01bff9cb35039a2bce00548eb0c3c513ed0"
+    },
+    {
+      "path": "UPGRADE_NOTES.md",
+      "size": 17371,
+      "sha256": "cf04b575c871c07b0f34d1166623645700bd41a1922f84466bec50bdc4d4cd57"
+    },
+    {
+      "path": "V17_QA_ACCEPTANCE_REPORT.md",
+      "size": 6507,
+      "sha256": "38d38ce10203161146eb74f28759e918c1cd8022c5c70f4d09e447851c3721d0"
+    },
+    {
+      "path": "app.py",
+      "size": 67460,
+      "sha256": "4f1d03d5e7692a25ca4d7aab4274cfcd3a007a80617e1c059a003353e1c1f8cf"
+    },
+    {
+      "path": "render.yaml",
+      "size": 971,
+      "sha256": "e8b26381c1b0f53cda359bbece8774d2643dd863396618e674ef1d25b226ccff"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 159,
+      "sha256": "867251c31aa3d70d1619c37ca7cf9bf0a7c48fb2765465cec759e01af2b17dd3"
+    },
+    {
+      "path": "supabase_schema.sql",
+      "size": 1743,
+      "sha256": "62d00a9c53f5871634bcd78c968dcb78a12fecb600b5b22c4b61fa8046763f82"
+    },
+    {
+      "path": "assets_src/dragon_vip.png",
+      "size": 1990195,
+      "sha256": "87029e6ed573cd313226c845e48a70523608cc7ba3f44b175d39d6c0287fe5e8"
+    },
+    {
+      "path": "assets_src/player_default.png",
+      "size": 2331067,
+      "sha256": "97a6850b2012fc05d2864500f85e87183ff13b461fc0e9988044bdaa46bca372"
+    },
+    {
+      "path": "assets_src/player_vip.png",
+      "size": 2888842,
+      "sha256": "a1c9db9698ecd8b226fc0f10ca80d7d0371dd7bf7c1628188def27c10958cf35"
+    },
+    {
+      "path": "assets_src/reference.jpg",
+      "size": 512873,
+      "sha256": "1f507b8cc30dc295696b97e6dab2252c614600a6fd7d0d141c23e3e48ce3d282"
+    },
+    {
+      "path": "assets_src/frames/ma_than/attack_0.png",
+      "size": 55194,
+      "sha256": "2505c5f218a09ba5f15919c0b254c093aaec5edd8cbe596dc17b69d2243837fa"
+    },
+    {
+      "path": "assets_src/frames/player/attack_0.png",
+      "size": 38764,
+      "sha256": "6ae779e516f6d96dd5063fc88a81c72d889ca9dc6c087068bdbf353d1eba3ee5"
+    },
+    {
+      "path": "assets_src/frames/boss_c/attack_0.png",
+      "size": 44485,
+      "sha256": "bad4d921dba262a6e82df5f455424a0a2819e3c49c851f18b8204d013bca4d24"
+    },
+    {
+      "path": "assets_src/frames/boss_a/attack_0.png",
+      "size": 43203,
+      "sha256": "efb0cd77afadad30bc674772a3f92b725e9270ea62b0a9fe6641eb1600aecf36"
+    },
+    {
+      "path": "assets_src/frames/boss_b/attack_0.png",
+      "size": 34635,
+      "sha256": "ed3f62da864a066c13a81502c5f9c6ca1a23817ef9deb0c940947feb5261fde7"
+    },
+    {
+      "path": "assets_src/frames/linh_khuyen/attack_0.png",
+      "size": 45155,
+      "sha256": "bbd5d1907f2147c48c396e2457107b64e96c400a05564b2432e84e68ecaa07e4"
+    },
+    {
+      "path": "assets_src/frames/boss_s/attack_0.png",
+      "size": 47215,
+      "sha256": "513198f7bb6e04d93e884a9faf11533bd77656bb738257e7c824fa127b35ab14"
+    },
+    {
+      "path": "assets_src/frames/boss_d/attack_0.png",
+      "size": 53781,
+      "sha256": "9b566860340a26a2bda520beeabde3e5ea7bc368d7b086aaf8726c2e3080f436"
+    },
+    {
+      "path": "assets_src/frames/boss_d/attack_1.png",
+      "size": 60768,
+      "sha256": "47298cee8c95da4852258b5c121429502f3a3c91ca58cd457ad8f316e3e3f991"
+    },
+    {
+      "path": "assets_src/frames/boss_d/attack_2.png",
+      "size": 62740,
+      "sha256": "a81652051849c5c0ea5325532a6b85019ace977d3df195454be4edac66c69283"
+    },
+    {
+      "path": "assets_src/frames/boss_d/attack_3.png",
+      "size": 67245,
+      "sha256": "f7a03b4956ee9d90dda44daf41db59ff1e0b5f373085deb606e8eb78078f05d5"
+    },
+    {
+      "path": "assets_src/frames/boss_d/attack_4.png",
+      "size": 54631,
+      "sha256": "09b83ca629575f6ebf4ec8d599fe9b63eb9e66e64b16772befe2b3714244936b"
+    },
+    {
+      "path": "assets_src/frames/boss_d/attack_5.png",
+      "size": 53575,
+      "sha256": "3b897025e0f9e9336b6aebf31ad4d1f19260475e27d3123dd2524f4df32e8299"
+    },
+    {
+      "path": "assets_src/frames/boss_d/die_0.png",
+      "size": 41821,
+      "sha256": "90562bdc2ebc4793269df106d5ea76d6a14e987f9407b0ca7bbc7ef24597444c"
+    },
+    {
+      "path": "assets_src/frames/boss_d/die_1.png",
+      "size": 44767,
+      "sha256": "427ec00c7782b2eaa529af628084f23028a21c2ad789e4a050575b70c709a06f"
+    },
+    {
+      "path": "assets_src/frames/boss_d/die_2.png",
+      "size": 39631,
+      "sha256": "da33e3eaa3424f90fced3300d02882dd39538acdccc5647997019a6aae843c44"
+    },
+    {
+      "path": "assets_src/frames/boss_d/die_3.png",
+      "size": 27314,
+      "sha256": "4a3f6f01267d802aa9cbae758b8529c0ad4de49fd9a5c7c799dae78f4e0ca919"
+    },
+    {
+      "path": "assets_src/frames/boss_d/die_4.png",
+      "size": 17019,
+      "sha256": "9bade705c7a3ed0046d4842c5dbb0498d3e49c35c5c3f414b69fe71ef097ed67"
+    },
+    {
+      "path": "assets_src/frames/boss_d/die_5.png",
+      "size": 10089,
+      "sha256": "0520a232bc0ec04f0c39e94388690f22e5e0ac73b1052ecaf161dddb9cd4b31a"
+    },
+    {
+      "path": "assets_src/frames/boss_d/hurt_0.png",
+      "size": 43674,
+      "sha256": "98aed890c80a1c1965725f0491aa46b7129898953b5ab663b8c492c2286f0cfa"
+    },
+    {
+      "path": "assets_src/frames/boss_d/hurt_1.png",
+      "size": 41502,
+      "sha256": "20cb6d2bdf95879f2302f6de85ceccc96a2516150f02f77fc01a2b97562e243d"
+    },
+    {
+      "path": "assets_src/frames/boss_d/hurt_2.png",
+      "size": 46177,
+      "sha256": "f00bdb01c9396cc0006050197ed602ac822b1ab32c9972c3d8fc4d50f5eff32c"
+    },
+    {
+      "path": "assets_src/frames/boss_d/hurt_3.png",
+      "size": 50026,
+      "sha256": "a8e53d455c68155cb7aff6406c0b32ddf22b597e96a914ba6c864d474c8757db"
+    },
+    {
+      "path": "assets_src/frames/boss_d/hurt_4.png",
+      "size": 52423,
+      "sha256": "344913be162cce14e235cf9285869893aa161ed23bad18a1d8454ae03253a416"
+    },
+    {
+      "path": "assets_src/frames/boss_d/hurt_5.png",
+      "size": 53524,
+      "sha256": "d08a3c883e45c6d4677aa4e7d222080e204d61d648d43a4b82caea3b3d579628"
+    },
+    {
+      "path": "assets_src/frames/boss_d/idle_0.png",
+      "size": 54155,
+      "sha256": "523f8122457adcdd970f19a06be84d5f1fb9a820d9fec9ac721ae8a721fa4ee0"
+    },
+    {
+      "path": "assets_src/frames/boss_d/idle_1.png",
+      "size": 54167,
+      "sha256": "1b2e499d6c2c1781d476b4fae19a4c004e0ffa70773f2edddb149142bd56b514"
+    },
+    {
+      "path": "assets_src/frames/boss_d/idle_2.png",
+      "size": 54167,
+      "sha256": "1b2e499d6c2c1781d476b4fae19a4c004e0ffa70773f2edddb149142bd56b514"
+    },
+    {
+      "path": "assets_src/frames/boss_d/idle_3.png",
+      "size": 54155,
+      "sha256": "523f8122457adcdd970f19a06be84d5f1fb9a820d9fec9ac721ae8a721fa4ee0"
+    },
+    {
+      "path": "assets_src/frames/boss_d/idle_4.png",
+      "size": 52975,
+      "sha256": "4a271439c92716ba6088e6a2f32b0c1727620c79e4976d02c0de4518a810b85f"
+    },
+    {
+      "path": "assets_src/frames/boss_d/idle_5.png",
+      "size": 52975,
+      "sha256": "4a271439c92716ba6088e6a2f32b0c1727620c79e4976d02c0de4518a810b85f"
+    },
+    {
+      "path": "assets_src/frames/boss_d/skill_0.png",
+      "size": 62293,
+      "sha256": "dc947173346772cccdaffe996a63bbc8c8ac485e72e2719b8a3a2bd5b7fa7ebb"
+    },
+    {
+      "path": "assets_src/frames/boss_d/skill_1.png",
+      "size": 62798,
+      "sha256": "07f2c3b83ef04ea3d3b6a3939fbba229331116ca79ecd18901361ce1c8c973ce"
+    },
+    {
+      "path": "assets_src/frames/boss_d/skill_2.png",
+      "size": 65825,
+      "sha256": "ed07eb1e2a332414ea74152de8b4a09d89ad0bb27ea9026df8bb6039db2c8d01"
+    },
+    {
+      "path": "assets_src/frames/boss_d/skill_3.png",
+      "size": 64362,
+      "sha256": "0b856c0e178a62d98c72f35c04cfbfe88d6ccc61c4ef9569a08cd0f5e503a7ad"
+    },
+    {
+      "path": "assets_src/frames/boss_d/skill_4.png",
+      "size": 59940,
+      "sha256": "d88b41030e777d2fd4ed73b2b56c78167e5443974a4c8545dfe175b281e6d143"
+    },
+    {
+      "path": "assets_src/frames/boss_d/skill_5.png",
+      "size": 63239,
+      "sha256": "074700fa957a31f44fa21ad7f8f08ac2133bd88c274b2f8dacb4560b08312e08"
+    },
+    {
+      "path": "assets_src/frames/boss_d/walk_0.png",
+      "size": 53092,
+      "sha256": "19da1d359340732e8ea221fc001c282ea6494a4607be19dff5220a88f9be10cd"
+    },
+    {
+      "path": "assets_src/frames/boss_d/walk_1.png",
+      "size": 53690,
+      "sha256": "0a5339c7c206272e3f1e5d56c3b392be14944905af54e802cc4e734b7b484f6e"
+    },
+    {
+      "path": "assets_src/frames/boss_d/walk_2.png",
+      "size": 53690,
+      "sha256": "0a5339c7c206272e3f1e5d56c3b392be14944905af54e802cc4e734b7b484f6e"
+    },
+    {
+      "path": "assets_src/frames/boss_d/walk_3.png",
+      "size": 53092,
+      "sha256": "19da1d359340732e8ea221fc001c282ea6494a4607be19dff5220a88f9be10cd"
+    },
+    {
+      "path": "assets_src/frames/boss_d/walk_4.png",
+      "size": 53654,
+      "sha256": "d9e034cdb71e0e41845876f61d8b556df2d7c1c97bee4c2d67170eea1daccced"
+    },
+    {
+      "path": "assets_src/frames/boss_d/walk_5.png",
+      "size": 53654,
+      "sha256": "d9e034cdb71e0e41845876f61d8b556df2d7c1c97bee4c2d67170eea1daccced"
+    },
+    {
+      "path": "assets_src/frames/ma_nu/attack_0.png",
+      "size": 39652,
+      "sha256": "7b4d10c3edcf6a163c35a945f3c34114821bdd0f4fdd9bacdfa2ed894bb727a4"
+    },
+    {
+      "path": "tools/build_player_sprites.py",
+      "size": 5496,
+      "sha256": "5815370ef00758a81075f107a631fbc34cb5379127bc76b54953a41e73aa67a2"
+    },
+    {
+      "path": "tools/build_sprites.py",
+      "size": 13928,
+      "sha256": "8c86220063bfbe66da5eaf55a38c3fbfac568f71f05feb72c76f77cfcb724339"
+    },
+    {
+      "path": "tests/test_long_vuong_title_ui.py",
+      "size": 1242,
+      "sha256": "0d65372f88c2d73a16d85201ae5cdc492a97f792174cc94760f3756eb45dbcdc"
+    },
+    {
+      "path": "tests/test_ocean_state_machine.py",
+      "size": 5758,
+      "sha256": "c12aea8fe4178b4018b6d2c093e0439570a60afc2fb77bdefb1c2f2033e916e7"
+    },
+    {
+      "path": "tests/test_v17_effect_assets.py",
+      "size": 3386,
+      "sha256": "10d5a292f98442f93858b38804a3c8d5811efd03f37a073c99d75149d4bd1087"
+    },
+    {
+      "path": "public/admin.html",
+      "size": 6658,
+      "sha256": "4e03bd93f588fdc35df92899e7a573ef41102c0d737726f1f3532684d63d6452"
+    },
+    {
+      "path": "public/index.html",
+      "size": 121737,
+      "sha256": "8d8a1657fb61bb712b243e26918794e56cf2079e06f1463f4cead22e0b02cd4c"
+    },
+    {
+      "path": "public/manifest.json",
+      "size": 546,
+      "sha256": "0b80be5cac672ad95ec5849bc572bb465451c64eedcdf60e0f6c213695b4ca28"
+    },
+    {
+      "path": "public/sw.js",
+      "size": 787,
+      "sha256": "a2d744018ba6800ae84a53be0cea111454dca71e446b98d496f94d923028968b"
+    },
+    {
+      "path": "public/assets/effects/long_vuong_atlas.json",
+      "size": 330,
+      "sha256": "9cf724b5a9448184310746d76ae3f47b3691349ae164476e69e666033180ba81"
+    },
+    {
+      "path": "public/assets/effects/long_vuong_atlas.png",
+      "size": 698422,
+      "sha256": "9b7a4349a1b7d00e6bc509f7abc6ae71260c2bb3f7ff6d8d837c0cdbac932e36"
+    },
+    {
+      "path": "public/assets/effects/long_vuong_dragon.png",
+      "size": 2010721,
+      "sha256": "ea4777aa6dd5d016b67a9612dd04fe6397f5813614906bce038043482a3b6304"
+    },
+    {
+      "path": "public/assets/icons/icon-192.png",
+      "size": 31671,
+      "sha256": "e2b4a41504a5a5bac91520ef9e585f165ad03f3f531db97ef0338c1e4b0d3c43"
+    },
+    {
+      "path": "public/assets/icons/icon-512.png",
+      "size": 166111,
+      "sha256": "e43d43955560808da78fc4d1f94f26546db431c6d3c0918bdff369f7f4b1d2e2"
+    },
+    {
+      "path": "public/assets/maps/cloud-garden.svg",
+      "size": 1288,
+      "sha256": "e9a76a49105e1553ace9c0fdd3865995952a5ac25b1912d0846acba4846c9efe"
+    },
+    {
+      "path": "public/assets/maps/origin.svg",
+      "size": 986,
+      "sha256": "98b45dd5e556151f6c0ee271ddbe3b59c3dac674ecd74c6f2b6ac0c728668e90"
+    },
+    {
+      "path": "public/assets/maps/prehistoric.svg",
+      "size": 1105,
+      "sha256": "4519a9fa48b0872e977fe02c5948c1cf8bb1004b5a1c578727440be28443a575"
+    },
+    {
+      "path": "public/assets/gear/champion_armor.png",
+      "size": 57679,
+      "sha256": "31731f68340e02615215069c706c87de28d36c9f0ef5f6252ab851412abc0d53"
+    },
+    {
+      "path": "public/assets/gear/champion_boots.png",
+      "size": 66528,
+      "sha256": "1d544e43c71658998923e0b473c2ca77cbf95959b2fb69ace3a553f468d71412"
+    },
+    {
+      "path": "public/assets/gear/champion_helm.png",
+      "size": 46271,
+      "sha256": "77f94e142f02f0062461f8aafa79174ec16413b7393d6cce73b49ab0cf3b9e23"
+    },
+    {
+      "path": "public/assets/gear/champion_pants.png",
+      "size": 57161,
+      "sha256": "3431e1d212dabbd6de421ddfc3be69b5173eca9fe5d85fa91a80a2c61d233523"
+    },
+    {
+      "path": "public/assets/gear/ov_champion_armor.png",
+      "size": 48963,
+      "sha256": "07dc61935dccd0248c8b14e1ff5cb95ded05388115da9c55b4de418a365740f3"
+    },
+    {
+      "path": "public/assets/gear/ov_champion_boots.png",
+      "size": 40702,
+      "sha256": "a3cf72aaa8aadc0ccda3b86233716e96b75f8f8815c52911dde97d63051ccbe7"
+    },
+    {
+      "path": "public/assets/gear/ov_champion_helm.png",
+      "size": 29237,
+      "sha256": "86564d3240c5370cb8ed6860972032828e1437fc242dc69ff3674cbc5a44994e"
+    },
+    {
+      "path": "public/assets/gear/ov_champion_pants.png",
+      "size": 45451,
+      "sha256": "77d9831f4ebce1608bb2eaf16fdc61916bf5a804808e5255b78aa59928a4b9d6"
+    },
+    {
+      "path": "public/assets/ocean/cuu_dau_hai_xa.png",
+      "size": 212008,
+      "sha256": "8c2f360e1d2dc4d5d0b659b7f1c0291c5cbb721de6704832f2b5671558655719"
+    },
+    {
+      "path": "public/assets/ocean/hai_ma.png",
+      "size": 179146,
+      "sha256": "93baaadbbe53ca80fb312f566151a8d0113700288eec2a6d54c99bb37bc9f257"
+    },
+    {
+      "path": "public/assets/ocean/hai_yeu_co_dai.png",
+      "size": 235503,
+      "sha256": "222948ff78be2cf96f4bb521b46bff95ce08f832ddc36f8768dc7099c06f7f6c"
+    },
+    {
+      "path": "public/assets/ocean/long_king_armor.svg",
+      "size": 1158,
+      "sha256": "13f29e6093829d71c4dd0dafceda94dd611223df16cca5e4f30f5ea7bb3f66da"
+    },
+    {
+      "path": "public/assets/ocean/long_king_boots.svg",
+      "size": 1016,
+      "sha256": "f0dcbebac3471ff736362505780c3c6460663eca67e21c92006df81f52395d1a"
+    },
+    {
+      "path": "public/assets/ocean/long_king_helm.svg",
+      "size": 1285,
+      "sha256": "f0c4302e06c313a5c9dc751ebfb67ee0aeb4c2eebec01cc8380f5246f709a080"
+    },
+    {
+      "path": "public/assets/ocean/long_king_pants.svg",
+      "size": 960,
+      "sha256": "f81226247da9d69f043774b098c4a21a260da345654dcae86621cfe8fa2857e0"
+    },
+    {
+      "path": "public/assets/ocean/long_vuong.png",
+      "size": 225041,
+      "sha256": "225f6deaaf931e91492a58dadb0e9e27f51ba9274039c4025ec0629e133620f1"
+    },
+    {
+      "path": "public/assets/ocean/long_vuong_equipped.png",
+      "size": 2173501,
+      "sha256": "0d5626531a4461b0d9a300e707ed8744d5ba89e57fe92dba60821fde17724356"
+    },
+    {
+      "path": "public/assets/ocean/npc_long_vuong.png",
+      "size": 246587,
+      "sha256": "976ac0983f26a02af8da2f3d8dde9341d3e4c33c68d4eec5f0c7214e7418f8b2"
+    },
+    {
+      "path": "public/assets/ocean/stage_1.webp",
+      "size": 141394,
+      "sha256": "3f5fe89df2d8959ad8bf9e47682bdc18336f907c0360070a02189f5befe99a47"
+    },
+    {
+      "path": "public/assets/ocean/stage_2.webp",
+      "size": 143478,
+      "sha256": "f51a105ed50ea0429f366fd6c9bd7cab70254c906625152d8b9885d381ce89b5"
+    },
+    {
+      "path": "public/assets/ocean/stage_3.webp",
+      "size": 126554,
+      "sha256": "f38324cb5fb4005d5368c2da13538f973264fc1d3133b9203dc4d6d7573c9413"
+    },
+    {
+      "path": "public/assets/ocean/stage_4.webp",
+      "size": 133802,
+      "sha256": "baed56fcb120c17ad72d90c53010860db705dfeb1fb04c5a16fdb77eaa155c8a"
+    },
+    {
+      "path": "public/assets/ocean/stage_5.webp",
+      "size": 160020,
+      "sha256": "4f134ad86e88ffd1367d30cbdc1786641df0c6f79b5c3a8946b913faac5e675c"
+    },
+    {
+      "path": "public/assets/ocean/than_long_form.png",
+      "size": 1999152,
+      "sha256": "57968e6ef358c1638d0290dfa0e91e1adc717d5a238d8c811b4a4cd16d9c768a"
+    },
+    {
+      "path": "public/assets/ocean/thuy_hau_tu.png",
+      "size": 157800,
+      "sha256": "117263b1b00d34ebb65cd7c474f5793331bdfaf6ea923428d986c534e3102d6c"
+    },
+    {
+      "path": "public/assets/characters/boss_a.png",
+      "size": 128996,
+      "sha256": "91d680bd8d7f4649f0cf7e797778d0e41d88b6718a85d5132da314e2739c4e92"
+    },
+    {
+      "path": "public/assets/characters/boss_a_sheet.png",
+      "size": 1163801,
+      "sha256": "64077a010d775101eebb6d7916314a6fb5ccd973156acd8d948af57014db9e7a"
+    },
+    {
+      "path": "public/assets/characters/boss_b.png",
+      "size": 87734,
+      "sha256": "45fff9249e8cbbc4d78c9bf99a41aa4c2fc08f26a88d1ed4b7806822a21a5d73"
+    },
+    {
+      "path": "public/assets/characters/boss_b_sheet.png",
+      "size": 942874,
+      "sha256": "4e00eb20e087905ada7dada4dca878b4f0849893e7d58179ed68ca8be9218ada"
+    },
+    {
+      "path": "public/assets/characters/boss_c.png",
+      "size": 90280,
+      "sha256": "0adcd614e36976b668083126d3a67bcaae0c96b99370257b833fd797e856c433"
+    },
+    {
+      "path": "public/assets/characters/boss_c_sheet.png",
+      "size": 1212088,
+      "sha256": "b9d90aafa8beb64d40b88bcb305a0a852507091135886a7594f7c7c7a4acca48"
+    },
+    {
+      "path": "public/assets/characters/boss_d.png",
+      "size": 96227,
+      "sha256": "ee79542cad32e90a5665bfe63f9b5616b33129a8c2107149c479db4111ab1391"
+    },
+    {
+      "path": "public/assets/characters/boss_d_sheet.png",
+      "size": 1427407,
+      "sha256": "dedc6757fa3cbbaef06530cce4cbf670c67fc5c08c29eb82359397d5b6b58578"
+    },
+    {
+      "path": "public/assets/characters/boss_s.png",
+      "size": 107053,
+      "sha256": "8a486f1329f63c6192da36a39d713c8fae905ae41aaa90823c9351bb730dbb93"
+    },
+    {
+      "path": "public/assets/characters/boss_s_sheet.png",
+      "size": 1266845,
+      "sha256": "3360cfe649142139ef9dde0c9c1ddd9bd68f5a60d5e838d2d2ffec1631765d2a"
+    },
+    {
+      "path": "public/assets/characters/dino-pet.svg",
+      "size": 2318,
+      "sha256": "acb03d83b4e92f3c97726c74a4da6e49a41af0f052e4f5ccdf4d615e508c273b"
+    },
+    {
+      "path": "public/assets/characters/dragon_vip.png",
+      "size": 308539,
+      "sha256": "6d54bfe9be75c34ecaaec93af0b6657dfa579d78691ef7d17a4ea5a89837b164"
+    },
+    {
+      "path": "public/assets/characters/linh_khuyen.png",
+      "size": 94010,
+      "sha256": "b24974b6aea567c54f4bb773246c37e104036b4570375de3a5be3f47433197fc"
+    },
+    {
+      "path": "public/assets/characters/linh_khuyen_sheet.png",
+      "size": 1231694,
+      "sha256": "241ce41eb6c9d7dd99c53f40bf2d081ee1e4ba12af7005ee6a2ddec3c7eaea2d"
+    },
+    {
+      "path": "public/assets/characters/ma_nu.png",
+      "size": 92214,
+      "sha256": "6a31b28ca8685b087770f3fcefd6ecaba11591ca2b5fa3fc1cd4df16d153dc19"
+    },
+    {
+      "path": "public/assets/characters/ma_nu_sheet.png",
+      "size": 1082409,
+      "sha256": "8c2fc2420bf8ba8e83d95e808873623042af83d69968e9e6ef29c4043dc6fbe8"
+    },
+    {
+      "path": "public/assets/characters/ma_than.png",
+      "size": 131971,
+      "sha256": "80d682d6b2336146da3a6f62a923a863c57d8057d406df362362f6e21847079e"
+    },
+    {
+      "path": "public/assets/characters/ma_than_sheet.png",
+      "size": 1469106,
+      "sha256": "ddb23ede636401b3c3f291a9bbe7f213a1b98bd43ab18a56f265c9a8c3a0df3b"
+    },
+    {
+      "path": "public/assets/characters/player.png",
+      "size": 1024501,
+      "sha256": "6940a8b581a20ba70c0f973f07994f202f3c1125e9fcb0ac0b96ca25aeedf239"
+    },
+    {
+      "path": "public/assets/characters/player_sheet.png",
+      "size": 515442,
+      "sha256": "98dffdc1d9dad3281adaa6e363d2292fd52b9e7c9048f2dfdd4c16598cad8d9c"
+    },
+    {
+      "path": "public/assets/characters/player_vip.png",
+      "size": 2688551,
+      "sha256": "7555044b240befc36ddea227c12188f721224fa46ece808d90a3ecbeb7cdcaf5"
+    },
+    {
+      "path": "public/assets/characters/player_vip_sheet.png",
+      "size": 904447,
+      "sha256": "e277b34862dfe8de269cbcbeb42dff3d0aa0f222a9e26271b5c5abbf5386a204"
+    },
+    {
+      "path": "public/assets/characters/sprites.json",
+      "size": 3019,
+      "sha256": "d4c3bcc8691cf4d02e880034638eef3458fea6e46b6a88c6fd131c3e9769823c"
+    }
+  ]
+}
